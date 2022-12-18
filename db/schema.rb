@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_18_230344) do
   create_table "currencies", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.bigint "maxsupply"
+    t.bigint "max_supply"
     t.string "currency_symbol"
     t.string "slug"
     t.datetime "created_at", null: false
